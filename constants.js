@@ -4,9 +4,11 @@
 // This list is used in both the main process (index.js) and preload script (preload.js)
 // to ensure consistent navigation behavior for the app and authentication flows
 const allowedHosts = new Set([
+    'copilot.com',
     'copilot.microsoft.com',
     'login.microsoftonline.com',
     'login.live.com',
+    'accounts.google.com',
 ]);
 
 module.exports = {
